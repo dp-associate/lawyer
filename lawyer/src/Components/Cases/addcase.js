@@ -45,7 +45,7 @@ const Addcases = () => {
 
   const handleSubmit = async (e) => {
     window.location.reload();
-    alert(`${data.ClientName} Registered Successfully !!!!`)
+    //alert(`${data.ClientName} Registered Successfully !!!!`)
     e.preventDefault();
     try {
       const url = "http://localhost:8080/api/users/addcase";

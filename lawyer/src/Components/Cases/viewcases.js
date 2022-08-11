@@ -41,11 +41,13 @@ const Viewcase = () => {
 
 
   return (
-    <div style={containerStyle}>
-      <div style={gridStyle} className="ag-theme-alpine">
+    <div style={containerStyle} >
+      
+      <div style={gridStyle} className="ag-theme-alpine" >
       <div class="col-sm-12 col-xs-12">
-                                       <Link to="/addcase">  <button class="btn btn-sm btn-primary pull-left"  ><i class="fa fa-plus-circle"> Add New</i></button> </Link>
-
+        <div class="name">
+      <Link to="/addcase">  <button class="btn btn-sm btn-primary pull-left"  ><i class="fa fa-plus-circle"> Add New</i></button> </Link>
+      <br/><br/></div>
                                    </div>
         <AgGridReact
  
@@ -60,6 +62,7 @@ const Viewcase = () => {
         ></AgGridReact>
       </div>
     </div>
+    
   );
 };
 export default Viewcase

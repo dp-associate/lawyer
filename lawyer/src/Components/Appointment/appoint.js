@@ -73,10 +73,10 @@ export class Appoin1 extends Component {
 
         return (
       
-
+            <div class="table">
             <div className="container">
                 <div class="row" className="hdr">
-                  <div class="">
+                  <div class="tab">
                   <button onClick={handleClick1} class="btn btn-primary ">Add</button>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ export class Appoin1 extends Component {
                 </div>
 
             </div>
-            
+            </div>
         )
 
     }

@@ -9,9 +9,8 @@ const Homepage=()=>
 const User = localStorage.getItem("name");
 
     return (
-       
-            
-    <div className="App" style={{ backgroundImage:`url(${image})`,backgroundRepeat: 'no-repeat',width:'188.5vh', height:'106vh',backgroundSize:'cover' }}>
+ 
+    <div className="App" style={{ backgroundImage:`url(${image})`,backgroundRepeat: 'no-repeat',width:'168.2vh', height:'101.5vh',backgroundSize:'cover' }}>
         <h1>Welcome {User}</h1>
      
                 

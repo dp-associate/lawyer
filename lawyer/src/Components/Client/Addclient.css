@@ -4,6 +4,7 @@
   font-family: Copperplate, Papyrus, fantasy;
   font-size: 40px;
   text-align: center;
+  margin-top: -40px;
 }
 .add-page .btn{
     margin-right:30px;
@@ -157,7 +158,7 @@
     box-shadow: 0 0 15px rgb(0,0,0,0.4);
     padding:20px;
     align-self: normal;
-    margin-top: 5vh;
+    margin-top: 10em;
     margin-right: 200px;
     margin-left: 60px;
   }
