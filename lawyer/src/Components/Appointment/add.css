@@ -1,0 +1,214 @@
+/*Add appoinment page*/
+.header{
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 40px;
+  text-align: center;
+}
+.add-page .btn{
+    margin-right:30px;
+    float: right;
+    background: black;
+    color:aliceblue;
+    border: none;
+    width:100px;
+    height: 33px;
+    font-size: 15px;
+    text-transform:capitalize;
+    letter-spacing:1px ;
+    border-radius:25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  .add-page .btn1{
+    margin-right: 30px;
+    float: right;
+    background: black;
+    color:aliceblue;
+    border: none;
+    width:100px;
+    height: 33px;
+    font-size: 15px;
+    text-transform:capitalize;
+    letter-spacing:1px ;
+    border-radius:25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  .add-page .btn2{
+    margin-right: 5px;
+    float: right;
+    background: black;
+    color:aliceblue;
+    border: none;
+    width:100px;
+    height: 33px;
+    font-size: 15px;
+    text-transform:capitalize;
+    letter-spacing:1px ;
+    border-radius:25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  .add-page textarea{
+    background:darkseagreen;
+    color: black;
+    border: none;
+    width: 57%;
+    padding: 3px;
+    font-size: 15px;
+    min-height: 10px;
+    max-height: 120px;
+    resize: vertical;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    opacity: 0.9;
+  }
+  
+  .text-box{
+    background:darkseagreen;
+    color: black;
+    border: none;
+    width: calc(60% - 230px);
+    height: 40px;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    opacity: 0.9;
+  }
+  .text-box1{
+    background:darkseagreen;
+    color: black;
+    border: none;
+    width: 160px;
+    height: 40px;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    opacity: 0.9;
+  }
+  .text-box2{
+    background:darkseagreen;
+    color: black;
+    border: none;
+    width: 155px;
+    height: 40px;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    opacity: 0.9;
+  }
+  .text-box3{
+    background:darkseagreen;
+    color: black;
+    border: none;
+    width: 94px;
+    height: 40px;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    opacity: 0.9;
+  }
+
+  
+  .add-page .text-box:first-child{
+    margin-right: 100px;
+  }
+  
+  .add-page{
+    max-width: 1000px;
+    margin-left: 10vh;
+    flex: 1;
+  }
+
+  .rbtn{
+    margin-left: 350px;
+  }
+  .add h2{
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .card{
+    flex:1 1 20rem;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    margin:10px 20px;
+    flex-direction: row;
+    background: #fff;
+    box-shadow: 0 0 15px rgb(0,0,0,0.4);
+    padding:20px;
+    align-self: normal;
+    margin-top: 5vh;
+    margin-right: 200px;
+    margin-left: 60px;
+  }
+  .card h2{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: -50vh;
+  }
+  
+    .abcd{
+      display: flex;
+    }
+    .mobile{
+      flex: 1;
+    }
+    .date{
+      flex: 1;
+    }
+    .time{
+      flex: 1;
+    }
+    .addbtn {
+      display: inline-block;
+      padding: 9px 25px;
+      font-size: 17px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      position: absolute;
+      left: 500px;
+      top: 2px;
+      outline: none;
+      color: #fff;
+      background-color:#3e8e41;
+      border: none;
+      border-radius: 15px;
+      
+    }
+    
+    .addbtn:hover {background-color: #3e8e41}
+    
+    .addbtn:active {
+      background-color: #3e8e41;
+     
+      transform: translateY(4px);
+    }
+    /*Appoin page*/
+    .container{
+      margin-left: 10%;
+      margin-top: 7%;
+  }
+  
+  .pos{
+    position: relative;
+    left: -3%;
+    top: -3%;
+  }

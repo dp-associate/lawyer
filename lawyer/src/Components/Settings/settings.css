@@ -1,0 +1,107 @@
+p{
+    text-align: center;
+    font-size: 400%;
+    color: black;
+  }
+  .lawyer1{
+    text-align: center;
+    font-size: 200%;
+  }
+  body{
+      background-color: aliceblue;
+  }
+  .pos{
+    position: relative;
+    left: -4%;
+    top: -3%;
+  }
+
+/*   
+import React, { useCallback, useMemo, useRef, useState } from 'react';
+import { AgGridReact } from 'ag-grid-react';
+import 'ag-grid-community/styles/ag-grid.css';
+import 'ag-grid-community/styles/ag-theme-alpine.css';
+// import paginationFactory from 'react-bootstrap-table2-paginator'; 
+
+
+
+
+const createViewportDatasource = () => {
+    let initParams;
+    return {
+      init: (params) => {
+        initParams = params;
+        var oneMillion = 1000 * 1000;
+        params.setRowCount(oneMillion);
+      },
+      setViewportRange(firstRow, lastRow) {
+        var rowData = {};
+        for (var rowIndex = firstRow; rowIndex <= lastRow; rowIndex++) {
+          var item = {};
+          item.id = rowIndex;
+          rowData[rowIndex] = item;
+        }
+        initParams.setRowData(rowData);
+      },
+      destroy: () => {},
+    };
+  };
+  
+
+
+const Setting = () => {
+  const containerStyle = useMemo(() => ({ width: '70%', height: '80%' }), []);
+  const gridStyle = useMemo(() => ({ height: '70%', width: '100%' }), []);
+  const [rowData, setRowData] = useState();
+  const [columnDefs, setColumnDefs] = useState([
+    { headerName: 'ID',
+    field: 'id',},
+    { field: 'ClientName'},
+    { field: 'firnumber',},
+    { field: 'hdate' ,sort: 'desc',},
+  
+  ]);
+  const defaultColDef = useMemo(() => {
+    return {
+      editable: true,
+      sortable: true,
+      resizable: true,
+      filter: true,
+      flex: 1,
+      
+    };
+  }, []);
+
+  const User = localStorage.getItem("token");
+  const onGridReady = useCallback((params) => {
+    fetch(`http://localhost:8080/api/users/readcase/${User}`)
+      .then((resp) => resp.json())
+      .then((data) => setRowData(data));
+  }, []);
+
+  const viewportDatasource = useMemo(() => {
+    return createViewportDatasource();
+  }, []);
+
+  return (
+    <div style={containerStyle}>
+      <div style={gridStyle} className="ag-theme-alpine">
+        
+        <AgGridReact
+ 
+          rowData={rowData}
+          columnDefs={columnDefs}
+        //   rowHeight={100}
+          defaultColDef={defaultColDef}
+          onGridReady={onGridReady}   
+          pagination={true} 
+          filter={true}  
+          paginationPageSize={10}
+          rowModelType={'viewport'}
+          viewportDatasource={viewportDatasource}
+        ></AgGridReact>
+      </div>
+    </div>
+  );
+};
+export default Setting */

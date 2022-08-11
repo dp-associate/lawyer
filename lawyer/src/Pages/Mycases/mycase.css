@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+  }
+  .side{
+    flex: 2;
+  }
+  .dash{
+    flex: 8;
+    
+  }

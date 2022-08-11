@@ -1,0 +1,214 @@
+.header{
+  
+  margin-top: -40px;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.card{
+    flex:1 1 20rem;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    margin:10px 20px;
+    flex-direction: row;
+    background: #fff;
+    box-shadow: 0 0 15px rgb(0,0,0,0.4);
+    padding:20px;
+    align-self: normal;
+    margin-top: 1vh;
+    margin-right: 200px;
+    margin-left: 60px;
+    padding-left: 3em;
+  }
+
+.cdash{
+    height: 10px;
+  }
+  .cwrapper{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ccenter{
+    flex: 2;
+  }
+  
+  .ccenter{
+    margin-left:30px;
+    margin-top:0px;
+    padding:50px;
+  }
+  
+  .cright{
+    flex:1;
+   
+  }
+  .cright{
+   
+      margin-right:50px;
+      margin-top:0px;
+      padding:1px;
+  }
+  .comment textarea{
+    background:darkseagreen;
+    color: white;
+    border: none;
+    width: 30%;
+    padding: 3px;
+    font-size: 15px;
+    min-height: 10px;
+    max-height: 70px;
+    resize: vertical;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    opacity: 0.9;
+  }
+
+
+  .case {
+      font-size: 15px;
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
+    border: none;
+    border-radius: 4px;
+    background-color:darkseagreen;
+    color: white;
+    height:50px;
+    
+  }
+
+  .cradiobutton{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+    padding-right: 10em;
+    
+  }
+  .dash input[type=radio] {
+    cursor: pointer;
+    border: 0px;
+    width: 100px;
+    height: 1em;
+    margin-left: 1em;
+  }
+  .cbutton{
+    background-color:darkseagreen;
+
+  }
+  .ccbutton {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    
+  }
+  
+  .ccbutton:hover {background-color: #3e8e41}
+  
+  .ccbutton:active {
+    background-color: #3e8e41;
+   
+    transform: translateY(4px);
+  }
+  .cbutton1 {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 790px;
+    top: 600px;
+    outline: none;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 15px;
+   
+  }
+  
+  
+  .cbutton1:hover {background-color:rgb(211, 83, 9)}
+  
+  .cbutton1:active {
+    background-color:darkcyan;
+    
+    transform: translateY(4px);
+  }
+  .flex{
+    display: flex;
+  }
+  .resp{
+    flex: 1;
+    padding-right: 4em;
+   
+  }
+  .rad{
+    flex :4;
+    
+    
+/* 
+   justify-content: flex-end;
+   justify-self: flex-end;
+   justify-items: flex-end; */
+  
+  }
+  .flex1{
+    display:flex;
+  }
+  .case-num{
+    flex:1.45;
+    
+  }
+  .fir{
+    flex:1;
+    padding-right: 9em;
+ }
+  .court{
+    flex:1;
+  }
+  .flex2{
+    display:flex;
+  }
+  .court{
+    flex:1;
+    padding-right: 9em;
+
+  }
+  .fil{
+    flex:1;
+    padding-right: 10em;
+  }
+
+  .pos{
+    position: relative;
+    left: -4%;
+    top: -3%;
+  }
+
+  .cli{
+    flex:1;
+    padding-right: 20em;
+  }
+
