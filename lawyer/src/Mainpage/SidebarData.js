@@ -4,7 +4,7 @@ import DashboardRoundedIcon from '@mui/icons-material/DashboardRounded';
 import GavelIcon from '@mui/icons-material/Gavel';
 import ManIcon from '@mui/icons-material/Man';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-import SettingsIcon from '@mui/icons-material/Settings';
+import GroupsIcon from '@mui/icons-material/Groups';
 import LogoutIcon from '@mui/icons-material/Logout';
 const handleLogout = () => {
     localStorage.removeItem("token");
@@ -39,8 +39,8 @@ export const SidebarData =[
         link:"/appointment"
     },{
         title:"About",
-        icon:<SettingsIcon />,
-        link:"/setting"
+        icon:<GroupsIcon/>,
+        link:"/about"
     },
     {
         title:"Logout",
